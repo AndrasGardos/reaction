@@ -10,7 +10,7 @@ $(function(){
     
     function start(){
         $(".start,.title,.instructions").hide();
-        setTimeout(flash,random(2000,5000));
+        setTimeout(flash,random(1500,4000));
     }
 
     function flash(){
@@ -48,7 +48,7 @@ $(function(){
             let diff = Math.sqrt(calcAvg(diffs));
             showResult(time,diff);
         }else{
-            setTimeout(flash,random(2000,5000));
+            setTimeout(flash,random(1500,4000));
         }
     }
 

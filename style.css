@@ -15,8 +15,8 @@
 
 .button {
     background-color:goldenrod;
-    width:50vmin;
-    height:50vmin;
+    width:80vmin;
+    height:80vmin;
     border-radius:100%;
 }
 
@@ -29,7 +29,7 @@
     height:10vmin;
     line-height:10vmin;
     margin:auto;
-    margin-top:20vmin;
+    margin-top:35vmin;
     text-align: center;
     color:white;
     border:solid 2px white;
@@ -66,11 +66,11 @@
 
 .results {
     color:white;
-    font-size:2vmin;
+    font-size:6vmin;
     text-align:center;
     display:none;
 }
 
 .result-time {
-    font-size:10vmin;
+    font-size:18vmin;
 }
