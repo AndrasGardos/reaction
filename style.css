@@ -1,0 +1,76 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+.app {
+    width:100vw;
+    height:100vh;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    /*background-color:gainsboro;*/
+    background-color:rgb(180, 180, 180);
+}
+
+.button {
+    background-color:goldenrod;
+    width:50vmin;
+    height:50vmin;
+    border-radius:100%;
+}
+
+.active {
+    background-color: yellow;
+}
+
+.start {
+    width:20vmin;
+    height:10vmin;
+    line-height:10vmin;
+    margin:auto;
+    margin-top:20vmin;
+    text-align: center;
+    color:white;
+    border:solid 2px white;
+    border-radius:1vmin;
+    font-size:4vmin;
+    cursor: pointer;
+}
+
+.start:hover {
+    color:yellow;
+    border:solid 2px yellow;
+    border-radius:1vmin;
+}
+
+.title {
+    color:white;
+    font-size:8vmin;
+}
+
+.instructions {
+    color:white;
+    font-size:4vmin;
+}
+
+.progressbar {
+    position: absolute;
+    background-color: #fff;
+    top:0px;
+    left:0px;
+    width:0vw;
+    height:1.5vh;
+    transition:1s;
+}
+
+.results {
+    color:white;
+    font-size:2vmin;
+    text-align:center;
+    display:none;
+}
+
+.result-time {
+    font-size:10vmin;
+}
